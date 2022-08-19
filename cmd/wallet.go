@@ -23,6 +23,5 @@ var walletCmd = &cobra.Command{
 }
 
 func init() {
-
 	rootCmd.AddCommand(walletCmd)
 }

@@ -7,3 +7,9 @@ func PanicErr(err error) {
 		log.Panic(err)
 	}
 }
+
+func PrintErr(err error) {
+	if err != nil {
+		log.Print(err)
+	}
+}
